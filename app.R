@@ -36,6 +36,7 @@ drawBoard = function(){
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
+  tags$head(HTML("<title>DartsOptimizeR</title>")),
   titlePanel(h1("Darts App", align = "center")),
   br(),
   sidebarLayout(
